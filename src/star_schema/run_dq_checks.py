@@ -5,7 +5,6 @@ sys.path.append('/home/workspace/src/')
 from helpers.data_quality_checks import DataQualityChecks
 
 
-
 # Specifying all of the data quality checks to run     
 all_checks = [
     { 

@@ -45,7 +45,7 @@ class DataQualityChecks:
     @staticmethod
     def row_count_between(cur, conn, table_name, lower_bound, upper_bound):
         """
-        Asserts that table has at least one row.   
+        Asserts that table row count is between two values.
         
         Parameters
         ----------
@@ -116,6 +116,3 @@ class DataQualityChecks:
         'no_nulls': no_nulls.__func__,
         'all_distinct': all_distinct.__func__,
     }
-
-
-

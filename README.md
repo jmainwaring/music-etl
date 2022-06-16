@@ -1,4 +1,4 @@
-# capstone-nanodegree
+# music-ETL
 
 ## Project overview
 For my capstone project, I've combined various data sources from Spotify to answer four key questions around hit songs. The questions are:
